@@ -10,8 +10,8 @@ float[] y1 = new float[5];  // y coordinate of bob of pendulum 1
 float[] x2 = new float[5];  // x coordinate of bob of pendulum 2
 float[] y2 = new float[5];  // y coordinate of bob of pendulum 2
 
-float[] angle1 = new float[5];  // angle of pendulum 1 from vertical (have to check)
-float[] angle2 = new float[5];  // angle of pendulum 2 from vertical (have to check)
+float[] angle1 = new float[5];  // angle of pendulum 1 from vertical 
+float[] angle2 = new float[5];  // angle of pendulum 2 from vertical 
 
 
 float[] velocity1 = new float[5];   // rate of change of angle1

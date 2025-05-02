@@ -40,10 +40,10 @@
         fill(i, 1, 1, 1F);
         stroke(i, 1, 1, 1F);
 
-        line(0, 0, x1[i], y1[i]);
-        circle(x1[i], y1[i], mass1[i] / 2);
+        line(0, 0, x1[i], y1[i]);             // draw 1st pendulum 'rod'.
+        circle(x1[i], y1[i], mass1[i] / 2);   // draw 1st pendulum 'bob'.
 
-        line(x1[i], y1[i], x2[i], y2[i]);
-        circle(x2[i], y2[i], mass2[i] / 2);
+        line(x1[i], y1[i], x2[i], y2[i]);     // draw 2nd pendulum 'rod'.
+        circle(x2[i], y2[i], mass2[i] / 2);   // draw 2nd pendulum 'bob'.
 
     }
